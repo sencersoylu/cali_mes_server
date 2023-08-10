@@ -1,0 +1,66 @@
+{
+  "db": {
+    "uretim_d2": {
+      "host": "10.45.1.111",
+      "username": "root",
+      "password": "5421",
+      "dialect": "mysql",
+      "database": "uretim",
+      "logging": false
+    },
+    "uretim_d3": {
+      "host": "10.45.1.67",
+      "username": "root",
+      "password": "5421",
+      "dialect": "mysql",
+      "database": "uretim",
+      "logging": false
+    },
+    "spoiler": {
+      "host": "10.44.0.154",
+      "username": "sa",
+      "port": "1433",
+      "password": "54215413",
+      "dialect": "mssql",
+      "database": "Aplas",
+      "dialectOptions": {
+        "options": {
+          "encrypt": false,
+          "instanceName": "WINCC"
+        }
+      },
+      "logging": false
+    },
+    "ees": {
+      "database": "EES_CAL2023",
+      "host": "10.45.1.111",
+      "dialect": "mssql",
+      "username": "sa",
+      "password": "PLSkonigulsena206253",
+      "define": {
+        "freezeTableName": true,
+        "timestamps": true
+      },
+      "dialectOptions": {
+        "decimalNumbers": true,
+        "multipleStatements": true
+      },
+      "logging": false
+    },
+    "boyahane": {
+      "database": "aplas",
+      "host": "192.168.99.24",
+      "dialect": "mysql",
+      "username": "aplas",
+      "password": "P15229",
+      "define": {
+        "freezeTableName": true,
+        "timestamps": true
+      },
+      "dialectOptions": {
+        "decimalNumbers": true
+      },
+      "logging": false
+    }
+  }
+}
